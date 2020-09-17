@@ -6,9 +6,9 @@
 import arcpy
 import numpy as np
 
-raster = 'ziyuan_beidao.tif'
+raster = '**.tif'
 
-point = 'point_erase.shp'
+point = '**.shp'
 
 image = arcpy.Raster(r"**.tif")
 arrImg = arcpy.RasterToNumPyArray(image)
